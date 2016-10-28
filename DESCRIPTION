@@ -1,0 +1,16 @@
+Package: ncload
+Type: Package
+Version: 0.0.1
+Title: Load NetCDF 
+Description: Load variables as arrays from NetCDF file. 
+Authors@R: c(person("Michael D.","Sumner", role = c("aut", "cre"), email = "mdsumner@gmail.com"))
+URL: https://mdsumner.github.io/ncload
+BugReports: https://github.com/mdsumner/ncload/issues
+Depends: R (>= 3.3.1)
+Imports: ncdf4
+Remotes: r-gris/rancid
+VignetteBuilder: knitr
+LazyData: LazyData: true
+License: GPL-3?
+Encoding: UTF-8
+Suggests: covr
