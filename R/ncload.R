@@ -8,7 +8,7 @@
 #' @return NULL for success, has the side effect of creating variables in the global environment
 #' @export
 #' @importFrom ncdf4 nc_open ncvar_get
-#'
+#' @importFrom rancid NetCDF
 #' @examples
 #' x <- system.file("extdata", "S2008001.L3m_DAY_CHL_chl_ocx_9km.nc", package = "ncload")
 #' nc_load(x)
