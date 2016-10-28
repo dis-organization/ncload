@@ -13,4 +13,5 @@ VignetteBuilder: knitr
 LazyData: LazyData: true
 License: GPL-3?
 Encoding: UTF-8
-Suggests: covr
+Suggests: covr,
+    testthat
